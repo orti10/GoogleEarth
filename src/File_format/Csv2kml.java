@@ -26,7 +26,7 @@ public class Csv2kml extends MData{
 		MData md =new MData();
 
 		try {
-			pw = new PrintWriter("C:\\Users\\tomer\\eclipse-workspace\\csvfiles\\destination.kml" ,"UTF-8"); //The destination file to the kml file we created
+			pw = new PrintWriter("C:\\Users\\ortal\\eclipse-workspace\\csvfiles\\destination.kml" ,"UTF-8"); //The destination file to the kml file we created
 
 
 			pw.append("<?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n");          // The first two lines in the csv files
